@@ -1,0 +1,41 @@
+#sidebar {
+    background-color: white;
+    display: inline-block;
+    position: fixed;
+    margin-top: 10px;
+    width: 300px;
+    left: -300px;
+    transition: transform 0.3s;
+    height: 100vh;
+}
+
+#sidebar a.nav-link {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    padding: 8px 8px 8px 150px;
+}
+
+#sidebar a.nav-link:hover {
+    background-color: #eecd7b;
+}
+
+#sidebar a.nav-link:active {
+    background-color: #eecd7b;
+}
+
+#sidebar, .cover {
+  transition: transform 0.3s;
+}
+
+#sidebar.toggled {
+    transform: translateX(300px);
+}
+
+#sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 50px;
+}

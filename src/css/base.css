@@ -1,0 +1,41 @@
+#page-base h5{
+    text-align: center;
+}
+
+ul.nav {
+    justify-content: space-between;
+}
+
+.base {
+    padding: 25px;
+}
+
+.footer-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 25px;
+    vertical-align: middle
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+img.header-logo {
+    width: 150px;
+    height: auto;
+}
+
+#searchbar {
+    display: none;
+}
+
+#searchbar.display {
+    display: inline-block;
+    transition: transform 0.3s;
+}
