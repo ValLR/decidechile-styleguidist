@@ -39,3 +39,7 @@ img.header-logo {
     display: inline-block;
     transition: transform 0.3s;
 }
+
+.about-us {
+    margin: 30px 50px;
+}
