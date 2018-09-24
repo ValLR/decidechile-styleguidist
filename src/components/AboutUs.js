@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import History from './History.js';
+import Team from './Team.js';
 
 const testInfo = {
     "About": {
@@ -65,34 +67,8 @@ class AboutUs extends Component {
     }
 }
 
-class History extends Component {
-    render(){
-        return(
-            <div>
-                <h5 className="text-left">{this.props.title}</h5>
-                <hr/>
-                <p>{this.props.body}</p>
-            </div>
-        )
-    }
-}
-
-class Team extends Component {
-    render(){
-        return(
-            <div>
-                <h5 className="text-left">{this.props.title}</h5>
-                <hr/>
-
-            </div>
-        )
-    }
-}
 
 
 export default AboutUs;
 
-History.propTypes = {
-    title: PropTypes.string,
-    body: PropTypes.string,
-};
+
